@@ -1,7 +1,16 @@
+import os
 import requests
 
 
 def downloadSetImages(setCode, maxSetNum):
+    # print(maxSetNum)
+    try:
+        os.mkdir(f"set-images/{setCode}")
+    except:
+        # dir already exits don't create it again
+        pass
+    
+    
     print(f'Downloading Card Images for {setCode}')
     for i in range(1,maxSetNum+1):
 
