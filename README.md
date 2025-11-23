@@ -2,4 +2,4 @@ Just a small script that downloads the images for all cards in all sets for magi
 
 
 
-* (Some of the newer sets of weird, non-sequential numbering, and the script doesn't like that so it will not grab all images for those sets. Thanks WOTC!
+* (Some of the newer sets of weird, non-sequential numbering, and the script doesn't like that so it will not grab all images for those sets. Thanks WOTC!*
